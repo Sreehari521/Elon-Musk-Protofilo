@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    position: fixed;
+    background: #000;
+    width: 100%;
+    height: 55px;
+}
+header ul{
+    position: relative;
+    top: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header ul li a{
+    text-decoration: none;
+    color: royalblue;
+    transition: 0.9s;
+}
+header ul li a:hover{
+    color: red;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(./bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+section h1{
+    position: relative;
+    font-size: 3em;
+    top: 10%;
+}
+section h1 span{
+    position: relative;
+    left: 10%;
+    color: rgb(51, 51, 247);
+}
+section h2{
+    position: relative;
+    font-size: 1.5em;
+}
